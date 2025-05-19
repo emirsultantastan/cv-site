@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .kutu {
+            border: solid 1px #003366;
+            background-color: #F0FFFF	;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin-left: 20px; /* sola dayama */
+            margin-right: auto;
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #003366;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        section {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #003366;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 10px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '\2022';
+            color: #003366;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .profile-pic {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border-radius: 8px;
+            max-width: 150px;
+            height: auto;
+        }
+
+        a {
+            color: #DAA520	;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #CC7722;
+        }
+
+        a:active {
+            color: #b84d0b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-pic" src="emr.jpg" alt="patrick jane">
+        <header>
+            <h1>Emirsultan Taştan</h1>
+            <p>Öğrenci - Bilgisayar Mühendisliği</p>
+        </header>
+
+        <section class="kutu">
+            <h2>Kişisel Bilgiler</h2>
+            <ul>
+                <li>Email: emirsultantastan@outlook.com</li>
+                <li>Telefon: +90 555 555 5555</li>
+                <li>Adres: Türkiye</li>
+            </ul>
+        </section>
+
+        <section class="kutu">
+            <h2>Eğitim</h2>
+            <ul>
+                <li>Karabük Üniversitesi, Bilgisayar Mühendisliği - 2023 - 2027</li>
+            </ul>
+        </section>
+
+        <section class="kutu">
+            <h2>Sertifikalar ve Kurslar</h2>
+            <ul>
+                <li>Temel Robotik ve Kodlama (04/11/2023 - 20/01/2024)</li>
+            </ul>
+        </section>
+
+        <section class="kutu">
+            <h2>Yetenekler</h2>
+            <ul>
+                <li>C Dili</li>
+                <li>Temel Seviye Oracle SQL</li>
+                <li>HTML ve CSS bilgisi</li>
+            </ul>
+        </section>
+
+        <section class="kutu">
+            <h2>Diller</h2>
+            <ul>
+                <li>Türkçe: Ana Dil</li>
+                <li>İngilizce: Orta Seviye</li>
+            </ul>
+        </section>
+
+        <section class="kutu">
+            <h2>Hobiler</h2>
+            <ul>
+                <li>Kitap okuma</li>
+                <li>Yazılım öğrenme</li>
+                <li>Spor</li>
+            </ul>
+        </section>
+
+        <section class="kutu">
+            <h2>İletişim</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/emirsultan-ta%C5%9Ftan-558182353?trk=contact-info">LinkedIn Profili</a>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
